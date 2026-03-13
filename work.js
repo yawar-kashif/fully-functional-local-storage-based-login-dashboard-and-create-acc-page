@@ -110,7 +110,7 @@ if (createAcc) {
                         confirmButtonText: 'Login'
                 }).then((result) => {
                         if (result.isConfirmed) {
-                                window.location.href="login page.html"
+                                window.location.href="index.html"
                         }
                 })
         })
@@ -128,7 +128,7 @@ if (logout) {
                 logout.addEventListener('click', () => {
                         localStorage.removeItem('userIndex');
                         localStorage.removeItem('userStatus');
-                        window.location.href = "login page.html";
+                        window.location.href = "index.html";
                 });
         }
 
